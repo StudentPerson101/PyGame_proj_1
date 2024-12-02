@@ -1,4 +1,4 @@
-# base - v2_p28 - speech boxes added
+# base - v2_p28 - speech boxes 
 
 import pygame
 import random
