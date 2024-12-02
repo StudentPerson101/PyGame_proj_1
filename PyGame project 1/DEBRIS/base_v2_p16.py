@@ -1,4 +1,4 @@
-#  base - v2_p16 - sound and image fx
+#  base - v2_p16 - sound and image fx (malfunctional)
 
 import pygame
 import random
