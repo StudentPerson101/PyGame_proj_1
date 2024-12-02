@@ -1,4 +1,4 @@
-# base - v2_p27 - boss fight + music added
+# base - v2_p27 - boss fight + music
 
 # main.py - Updated to handle victory condition
 
