@@ -1,4 +1,4 @@
-# base - v2_p29 - practice zone added
+# base - v2_p29 - practice zone 
 
 import pygame
 import random
