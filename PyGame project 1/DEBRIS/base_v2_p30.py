@@ -1,4 +1,4 @@
-# base - v2_p30 - arrow keys + less boss health
+# base - v2_p30 - arrow keys + boss health reduced
 
 import pygame
 import random
