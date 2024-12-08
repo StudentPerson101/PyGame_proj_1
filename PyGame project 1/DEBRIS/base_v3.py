@@ -58,32 +58,32 @@ else:
     except NameError:
         # If __file__ is not defined, use the current working directory
         base_path = os.getcwd()
-
-player_image_path = os.path.join('s_1_assets', 'images', 'ship_1.png')
-asteroid_image_path = os.path.join('s_1_assets', 'images', 'enemy_t1.png')
-background_image_path = os.path.join('s_1_assets', 'images', 'background_1.png')
-asteroid_explosion_image_path = os.path.join('s_1_assets', 'images', 'asteroid_explosion_1.png')
+base_path = os.path.dirname(__file__)
+player_image_path = os.path.join(base_path, 's_1_assets', 'images', 'ship_1.png')
+asteroid_image_path = os.path.join(base_path, 's_1_assets', 'images', 'enemy_t1.png')
+background_image_path = os.path.join(base_path, 's_1_assets', 'images', 'background_1.png')
+asteroid_explosion_image_path = os.path.join(base_path, 's_1_assets', 'images', 'asteroid_explosion_1.png')
 
 # Projectile images and explosion images
-projectile_1_image_path = os.path.join('s_1_assets', 'images', 'projectile_explosion_2.png')
-projectile_explosion_1_image_path = os.path.join('s_1_assets', 'images', 'projectile_explosion_6.png')
-projectile_2_image_path = os.path.join('s_1_assets', 'images', 'player_shot_2.png')
-projectile_explosion_2_image_path = os.path.join('s_1_assets', 'images', 'projectile_explosion_1.png')
-projectile_3_image_path = os.path.join('s_1_assets', 'images', 'player_shot_3.png')
-projectile_explosion_3_image_path = os.path.join('s_1_assets', 'images', 'projectile_explosion_3.png')
+projectile_1_image_path = os.path.join(base_path, 's_1_assets', 'images', 'projectile_explosion_2.png')
+projectile_explosion_1_image_path = os.path.join(base_path, 's_1_assets', 'images', 'projectile_explosion_6.png')
+projectile_2_image_path = os.path.join(base_path, 's_1_assets', 'images', 'player_shot_2.png')
+projectile_explosion_2_image_path = os.path.join(base_path, 's_1_assets', 'images', 'projectile_explosion_1.png')
+projectile_3_image_path = os.path.join(base_path, 's_1_assets', 'images', 'player_shot_3.png')
+projectile_explosion_3_image_path = os.path.join(base_path, 's_1_assets', 'images', 'projectile_explosion_3.png')
 
 # Right-click weapon image
-right_click_weapon_image_path = os.path.join('s_1_assets', 'images', 'player_shot_1.png')
+right_click_weapon_image_path = os.path.join(base_path, 's_1_assets', 'images', 'player_shot_1.png')
 
 # Life image path
-life_image_path = os.path.join('s_1_assets', 'images', 'life_1.png')
+life_image_path = os.path.join(base_path, 's_1_assets', 'images', 'life_1.png')
 
 # Boss assets
-boss_image_path = os.path.join('s_1_assets', 'images', 'enemy_t3.png')
-boss_attack_image_path = os.path.join('s_1_assets', 'images', 'boss_attack_1.png')
+boss_image_path = os.path.join(base_path, 's_1_assets', 'images', 'enemy_t3.png')
+boss_attack_image_path = os.path.join(base_path, 's_1_assets', 'images', 'boss_attack_1.png')
 
 # Define the path to the high score file
-high_score_file_path = os.path.join('s_1_assets', 'score', 'all_time_highest_score.txt')
+high_score_file_path = os.path.join(base_path, 's_1_assets', 'score', 'all_time_highest_score.txt')
 
 # Volume Settings
 # Set volume levels for all audio components (0.0 to 1.0)
